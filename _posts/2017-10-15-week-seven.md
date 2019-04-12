@@ -16,6 +16,6 @@ But it’s possible to reuse so much code that you end up with a website that lo
 
 Hackathon. My god. I’m still not ready to talk about that yet. I know I said I’d talk about three things in this post but this has turned out much longer than I expected already (possibly something to do with that Subaru/Toyota tangent) so to wrap things up quickly here’s some notes I took on a napkin while I was planning this post today.
 
-![](/assets/magicnapkin.jpg)
+![](/assets/ga/magicnapkin.jpg)
 
 *But somebody will. I’m guessing the ball’s in Elon Musk’s court.
