@@ -5,6 +5,7 @@ permalink: /discog/
 ---
 
 (this needs an update - coming soon)
+- The Cat Empire - Stolen Diamonds
 - Griff - Dawn Trails (bass)
 - Eastward - Z-A
 - Eastward - Advanced Virgo Detector
@@ -61,4 +62,4 @@ permalink: /discog/
 - The Cat Empire II
 - The Cat Empire
 
-Coming soon: Josh the Cat, Danny Ross, a film score with Ross Irwin, new Cat Empire album.
+Coming soon: Josh the Cat, Danny Ross, a film score with Ross Irwin
