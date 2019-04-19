@@ -3,6 +3,7 @@ layout: post
 title:  "Mondrian Sequencer"
 date:   2019-04-15 10:00:00 +1000
 categories: [projects]
+tech: React
 ---
 
 <iframe width="560" height="560" src="https://www.youtube.com/embed/u7B9B6sYUC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

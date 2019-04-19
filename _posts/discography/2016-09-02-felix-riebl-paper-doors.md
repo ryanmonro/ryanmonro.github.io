@@ -1,0 +1,13 @@
+---
+layout: post
+title:  Felix Riebl - Paper Doors
+date:   2016-09-02 10:00:00 +1000
+categories: [discography]
+details: 'bass, drum programming'
+---
+
+![](/assets/discography/paper-doors.jpg)
+
+Another three fun-filled days at Sing Sing: Danny Farrugia on drums, Ben Edgar on guitar, Ollie McGill on organ, myself on bass, production from Andy Baldwin and Ross Irwin. It was a winning combination: Felix's songs, Ross's arrangements pushing the band in the right direction, the band being allowed to do their own thing and being a great combination of guys it didn't take long, recorded by Andy. Recording an album in a big room with everyone playing at the same time might become a much rarer thing in the future, so it was great to get so many good live moments on this album. Some of the vocal takes that made the album were the actual ones Felix sang live, in the room, while playing piano, with everyone else playing. A completely live recording of the band playing the song with vocals. I love that. That's pretty rare these days.
+
+I played my '64 Precision on everything through my Hiwatt, and through a Marshall JCM800 on Shadows. I took all of my pedals to the studio, but the only time they really got used was the intro to Paper Doors. I was just messing around playing one note and then tuning it with the delay time on my DD-3 to play along with Ben through the chord progression, and then I heard somebody say in the headphones, "We're recording, keep going!" I also brought my Roland TR-808 in at Ross's request, because he wanted an old drum machine on Wager. I came up with what I thought was a pretty cool beat, and Ross had a listen and said, "Can you get rid of all the funky stuff?" So what went down was the normalest 12/8 beat you can imagine, with occasional handclaps and cymbals which I faded in live. I also triggered the drum fills live, but didn't quite understand how it worked, which is why some of the fills land in a weird spot. For future reference, buried in the 808's manual is this bit of advice: if you press Fill during beat 1 it will do a fill for the rest of the bar; if you press Fill after beat 1 it will do a fill in the following bar. So, it was fun to play drums on something but also weird seeing Danny go home for the day, one of the best drummers I've ever heard, so I could plug in an old drum machine. But the track came up great: we did a few takes live with the 808, Felix singing and playing Wurlitzer, and the organ and strings were added later.

@@ -1,5 +1,7 @@
 - name: Biography
   link: /biography/
+- name: Projects
+  link: /projects/
 - name: Discography
   link: /discog/
 - name: About

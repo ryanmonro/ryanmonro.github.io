@@ -1,0 +1,10 @@
+---
+layout: post
+title:  The Cat Empire - Rising with the Sun
+date:   2016-03-04 10:00:00 +1000
+categories: [discography]
+---
+
+![](/assets/discography/rising-with-the-sun.jpg)
+
+None of us knew we were making an album when we started making this. The plan was to go in and record a few songs, because it's 2015 and you don't really have to shell out the huge cost of making an album any more. But then it went way better than expected, Felix and Harry kept bringing more great material in, we kept going, almost had an album, then came back to the studio a few more times with more material and finished it off. As I thought it was only going to be a few songs, I kept the gear pretty simple: just my '62 Fender Precision and my Hiwatt and an Ampeg 2x10" cab. I was also inspired by really gross bass sounds (like the Stranglers version of Walk on By - check that one out) at the time, and wanted to try playing through guitar amps. Which is what the Hiwatt is I guess, but it sounds very very nice. I was sick of nice. I went through Jan's Marshall JCM800 combo, and it went "HONNNNNK" which sounded terrible and amazing, but we just couldn't get it to stop randomly going "fsssshhht". Possibly from something vibrating due to the bass frequencies. So it didn't make it to the album. As for the playing, I got to play some of the sparsest (Creature, Rising with the Sun), busiest (Daggers Drawn), simplest (Wolves), and fastest (outro of Bulls) stuff I've done in this band. It was great fun. Que Sera was pretty much a "play reggae over these chords" situation, and it only took a few takes to get the right one. Going simple with the gear was key: if I knew we were making an album I probably would have taken heaps of shit to the studio and complicated things. After a few days I thought, "This is working great. I'll keep using this one bass I brought with me."
