@@ -1,0 +1,133 @@
+::-webkit-scrollbar {
+  width: 1ch;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0); 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: silver; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.monitor {
+  margin: 0 auto;
+
+}
+
+.monitor-top {
+  // width: 836px;
+  box-sizing: border-box;
+  height: 703px;
+  padding: 40px 40px 80px 40px;
+  border-radius: 1em;
+  background: silver;
+  position: relative;
+}
+
+.led {
+  background: lime;
+  width: 16px;
+  height: 8px;
+  position: absolute;
+  bottom: 37px;
+  right: 80px;
+  display: inline-block;
+}
+
+.stand {
+  background: silver;
+  width: 300px;
+  height: 20px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.base {
+  background: silver;
+  width: 600px;
+  height: 40px;
+  padding: 0;
+  margin: 0 auto;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.screen {
+  width: 84ch;
+  height: 27em;
+  background: black;
+  transform: scaleY(1.35000135);
+  transform-origin: top left;
+  float: left;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  background: #666;
+  position: absolute;
+  bottom: 10px;
+  left: 388px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.dosbox {
+  box-sizing: border-box;
+  background: black; 
+  width: 84ch;
+  height: 27em;
+  padding: 1em 2ch;
+}
+
+.dos-border {
+  position: relative;
+  height: 23em;
+  background-color: $blue;
+  color: silver;
+}
+
+.dos-content {
+  color: white;
+  position: absolute;
+  top: 1em;
+  left: 2ch;
+  height: 21em;
+  width: 76ch;
+  overflow-y: auto;
+  padding-right: 2ch;
+  a::before {
+    content: '\0011';
+    color: lime;
+  }
+  a::after {
+    content: '\0010';
+    color: lime;
+  }
+}
+
+.dos-border-left {
+  position: relative;
+}
+
+.dos-border-right {
+  position: absolute;
+  display: inline;
+  right: 0px;
+}
