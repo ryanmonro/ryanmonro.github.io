@@ -5,25 +5,18 @@
 
   <body>
     <div class="monitor">
-      <div class="monitor-top">
-        <div class="screen">
-          <div class="dosbox">
-            {%- include header.html -%}
-            <main class="page-content dos-content" aria-label="Content">
-                {{ content }}
-            </main>
-            <div class="dos-border">
-            </div>
-            {%- include footer.html -%}
+      <div class="screen">
+        {%- include header.html -%}
+        <div class="dosbox">
+          <main class="page-content dos-content" aria-label="Content">
+              {{ content }}
+          </main>
+          <div class="dos-border">
           </div>
         </div>
-        <div class="led"></div>
-        <div class="logo"><a href="http://jekyllrb.com" target="_blank"><img src='/assets/logo.png' alt="logo" /></a></div>
+        {%- include footer.html -%}
       </div>
-      <div class="stand"></div>
-      <div class="base"></div>
     </div>
-    {%- include mobile-footer.html -%}
     <script>
       // draw border
       var width = 80, height = 23;

@@ -14,103 +14,20 @@
   background: white; 
 }
 
-body {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 .monitor {
   margin: 0 auto;
-
-}
-
-.monitor-top {
-  // width: 836px;
-  box-sizing: border-box;
-  // display: inline-block;
-  height: 703px;
-  padding: 40px 40px 80px 40px;
-  border-radius: 1em;
-  background: silver;
-  position: relative;
-  // overflow: auto;
-  @media screen and (max-width: $no-monitor) {
-    padding: 0px;
-    // height: 100%;
-  }
-}
-
-.led {
-  background: lime;
-  width: 16px;
-  height: 8px;
-  position: absolute;
-  bottom: 37px;
-  right: 80px;
-  display: inline-block;
-  @media screen and (max-width: $no-monitor) {
-    display: none;
-  }
-}
-
-.stand {
-  background: silver;
-  width: 300px;
-  height: 20px;
-  padding: 0;
-  margin: 0 auto;
-  @media screen and (max-width: $no-monitor) {
-    display: none;
-  }
-}
-
-.base {
-  background: silver;
-  width: 600px;
-  height: 40px;
-  padding: 0;
-  margin: 0 auto;
-  border-top-left-radius: 1em;
-  border-top-right-radius: 1em;
-  @media screen and (max-width: $no-monitor) {
-    display: none;
-  }
 }
 
 .screen {
-  width: 84ch;
-  height: 27em;
-  // overflow: auto;
   background: black;
   transform: scaleY(1.35000135);
   transform-origin: top left;
-  float: left;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 84ch;
+  height: 74vh;
   @media screen and (max-width: $no-monitor) {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: auto;
-  }
-}
-
-.logo {
-  height: 60px;
-  width: 60px;
-  background: #666;
-  position: absolute;
-  bottom: 10px;
-  left: 388px;
-  display: inline-block;
-  border-radius: 50%;
-  overflow: hidden;
-  img {
-    height: 60px;
-    width: 60px;
-  }
-  @media screen and (max-width: $no-monitor) {
-    display: none;
   }
 }
 
@@ -118,16 +35,15 @@ body {
   position: relative;
   box-sizing: border-box;
   background: black; 
-  width: 80ch;
-  height: 25em;
+  // width: 80ch;
+  flex: 1;
   overflow: auto;
   margin: 1em 2ch;
-  @media screen and (max-width: $no-monitor) {
     margin: 0;
     background: $blue;
-    overflow: none;
+    // overflow: none;
     width: 100%;
-    height: 74vh;
+  @media screen and (max-width: $no-monitor) {
   }
 }
 
@@ -137,30 +53,25 @@ body {
   background-color: $blue;
   color: silver;
   z-index: 1;
-  @media screen and (max-width: $no-monitor) {
     display: none;
+  @media screen and (max-width: $no-monitor) {
   }
 }
 
 .dos-content {
   color: white;
   background-color: $blue;
-  position: absolute;
   z-index: 2;
-  top: 2em;
-  left: 2ch;
-  height: 21em;
-  width: 76ch;
+  // width: 76ch;
   overflow-y: auto;
   padding-right: 2ch;
-  @media screen and (max-width: $no-monitor) {
     box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    // overflow: none;
+    // width: 100%;
+    // height: auto;
     top: 1em;
     left: 0ch;
     padding: 1em 2ch;
+  @media screen and (max-width: $no-monitor) {
   }
   a::before {
     content: '\0011';
@@ -181,7 +92,6 @@ body {
   img, iframe {
     max-width: 74%;
     transform: scaleX(1.35000135);
-    // transform: scaleY(0.74074);
     transform-origin: top left;
   }
 }
@@ -197,25 +107,10 @@ body {
 }
 
 .site-footer {
+  display: block;
   position: fixed;
-  bottom: 1em;
-  left: 2ch;
-  width: 80ch;
-  @media screen and (max-width: $no-monitor) {
-    display: none;
-  }
-}
-
-.mobile-footer {
-  display: none;
-  @media screen and (max-width: $no-monitor) {
-    display: block;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    height: 1em;
-    transform: scaleY(1.35000135);
-    transform-origin: bottom left;
-  }
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1em;
 }
