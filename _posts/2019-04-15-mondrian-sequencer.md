@@ -6,7 +6,7 @@ categories: [projects]
 tech: React
 ---
 
-<iframe width="560" height="560" src="https://www.youtube.com/embed/u7B9B6sYUC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height="266" width="266" src="https://www.youtube.com/embed/u7B9B6sYUC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The live demo is [here](https://ryanmonro.github.io/mondrian/).
 

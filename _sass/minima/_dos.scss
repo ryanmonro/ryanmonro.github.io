@@ -120,6 +120,20 @@ body {
     content: '\0010';
     color: lime;
   }
+  h1::after {
+    content: '----------';
+    display: block;
+  }
+  h2, h3, h4, h5, h6, ul, ol, .highlighter-rouge, iframe {
+    margin-bottom: 1em;
+  }
+  // scaling images and iframes (Youtube embeds) in opposite direction to counteract dosbox scaling. Gross. But the best solution I've got so far.
+  img, iframe {
+    max-width: 74%;
+    transform: scaleX(1.35000135);
+    // transform: scaleY(0.74074);
+    transform-origin: top left;
+  }
 }
 
 .dos-border-left {
