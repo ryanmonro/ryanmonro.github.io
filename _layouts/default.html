@@ -9,13 +9,12 @@
         <div class="screen">
           <div class="dosbox">
             {%- include header.html -%}
+            <main class="page-content dos-content" aria-label="Content">
+                {{ content }}
+            </main>
             <div class="dos-border">
-              <main class="page-content dos-content" aria-label="Content">
-                  {{ content }}
-              </main>
             </div>
             {%- include footer.html -%}
-            
           </div>
         </div>
         <div class="led"></div>
@@ -24,6 +23,7 @@
       <div class="stand"></div>
       <div class="base"></div>
     </div>
+    {%- include mobile-footer.html -%}
     <script>
       // draw border
       var width = 80, height = 23;

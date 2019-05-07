@@ -28,11 +28,17 @@ body {
 .monitor-top {
   // width: 836px;
   box-sizing: border-box;
+  // display: inline-block;
   height: 703px;
   padding: 40px 40px 80px 40px;
   border-radius: 1em;
   background: silver;
   position: relative;
+  // overflow: auto;
+  @media screen and (max-width: $no-monitor) {
+    padding: 0px;
+    // height: 100%;
+  }
 }
 
 .led {
@@ -43,6 +49,9 @@ body {
   bottom: 37px;
   right: 80px;
   display: inline-block;
+  @media screen and (max-width: $no-monitor) {
+    display: none;
+  }
 }
 
 .stand {
@@ -51,6 +60,9 @@ body {
   height: 20px;
   padding: 0;
   margin: 0 auto;
+  @media screen and (max-width: $no-monitor) {
+    display: none;
+  }
 }
 
 .base {
@@ -61,15 +73,26 @@ body {
   margin: 0 auto;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
+  @media screen and (max-width: $no-monitor) {
+    display: none;
+  }
 }
 
 .screen {
   width: 84ch;
   height: 27em;
+  // overflow: auto;
   background: black;
   transform: scaleY(1.35000135);
   transform-origin: top left;
   float: left;
+  @media screen and (max-width: $no-monitor) {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .logo {
@@ -86,32 +109,59 @@ body {
     height: 60px;
     width: 60px;
   }
+  @media screen and (max-width: $no-monitor) {
+    display: none;
+  }
 }
 
 .dosbox {
+  position: relative;
   box-sizing: border-box;
   background: black; 
-  width: 84ch;
-  height: 27em;
-  padding: 1em 2ch;
+  width: 80ch;
+  height: 25em;
+  overflow: auto;
+  margin: 1em 2ch;
+  @media screen and (max-width: $no-monitor) {
+    margin: 0;
+    background: $blue;
+    overflow: none;
+    width: 100%;
+    height: 74vh;
+  }
 }
 
 .dos-border {
-  position: relative;
+  position: absolute;
   height: 23em;
   background-color: $blue;
   color: silver;
+  z-index: 1;
+  @media screen and (max-width: $no-monitor) {
+    display: none;
+  }
 }
 
 .dos-content {
   color: white;
+  background-color: $blue;
   position: absolute;
-  top: 1em;
+  z-index: 2;
+  top: 2em;
   left: 2ch;
   height: 21em;
   width: 76ch;
   overflow-y: auto;
   padding-right: 2ch;
+  @media screen and (max-width: $no-monitor) {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    // overflow: none;
+    top: 1em;
+    left: 0ch;
+    padding: 1em 2ch;
+  }
   a::before {
     content: '\0011';
     color: lime;
@@ -144,4 +194,28 @@ body {
   position: absolute;
   display: inline;
   right: 0px;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 1em;
+  left: 2ch;
+  width: 80ch;
+  @media screen and (max-width: $no-monitor) {
+    display: none;
+  }
+}
+
+.mobile-footer {
+  display: none;
+  @media screen and (max-width: $no-monitor) {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 1em;
+    transform: scaleY(1.35000135);
+    transform-origin: bottom left;
+  }
 }
