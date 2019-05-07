@@ -60,12 +60,14 @@
       var punctuation = {
         '•': String.fromCharCode(0x07),
         '’': "'",
-        '”': '"'
+        '‘': "'",
+        '”': '"',
+        '“': '"',
+        '…': '...',
+        '–': '-'
       };
       var bodyHTML = document.body.innerHTML;
       Object.keys(punctuation).forEach(function(key){
-        // console.log(bodyHTML.split(key)[1]);
-        // bodyHTML = bodyHTML.replace(key, punctuation[key]);
         bodyHTML = bodyHTML.replaceAll(key, punctuation[key]);
       });
       document.body.innerHTML = bodyHTML;
