@@ -26,7 +26,7 @@
 }
 
 .site-nav {
-  position: absolute;
+  position: relative;
   top: 9px;
   right: $spacing-unit / 2;
   // background-color: $background-color;
@@ -40,22 +40,14 @@
 
   .menu-icon {
     float: right;
-    width: 36px;
-    height: 26px;
+    color: black;
     line-height: 0;
-    padding-top: 10px;
     text-align: center;
-
-    // > svg path {
-    //   fill: $grey-color-dark;
-    // }
   }
 
   label[for="nav-trigger"] {
     display: block;
     float: right;
-    width: 36px;
-    height: 36px;
     z-index: 2;
     cursor: pointer;
   }
@@ -67,25 +59,28 @@
 
   input:checked ~ .trigger {
     display: block;
-    padding-bottom: 5px;
+    position: fixed;
+    top: 15px;
+    right: 1em;
+    z-index: 5;
+    background: #AAA;
   }
 
   .page-link {
     color: #000;
     line-height: $base-line-height;
     display: block;
-    padding: 5px 10px;
+    padding: 0.25em 10px;
 
-    // &:hover {
-    //   color: $grey;
-    //   background-color: #000;
-    // }
+    &:hover {
+      color: $grey;
+      background-color: #000;
+    }
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 0;
     }
-    // margin-left: 20px;
   }
 
   @media screen and (min-width: $on-medium) {
@@ -111,7 +106,7 @@
       padding: 0;
 
       &:not(:last-child) {
-        margin-right: 20px;
+        margin-right: 10px;
       }
       margin-left: auto;
     }
@@ -133,6 +128,11 @@
   a:hover{
     background-color: black;
     color: $cyan;
+  }
+  .one-half {
+    @media screen and (max-width: $no-monitor) {
+      width: 100%;
+    }
   }
 }
 
@@ -233,7 +233,7 @@
 
 .social-media-list {
   display: table;
-  margin: 0 auto;
+  margin: 0;
   li {
     float: left;
     // margin: 0 5px;
@@ -241,7 +241,7 @@
     &:last-of-type { margin-right: 0 }
     a {
       display: block;
-      padding: 0 $spacing-unit / 4;
+      padding: 0 $spacing-unit / 2;
       // border: 1px solid $grey-color-light
     }
     &:hover .svg-icon { fill: currentColor; }
