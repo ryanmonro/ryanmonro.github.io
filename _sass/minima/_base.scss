@@ -142,20 +142,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-  // background-color: $blue;
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit}));
   position: relative;
-  // padding-right: $spacing-unit / 2;
-  // padding-left: $spacing-unit / 2;
   @extend %clearfix;
-
-  @media screen and (min-width: $on-large) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    // padding-right: $spacing-unit;
-    // padding-left: $spacing-unit;
-  }
 }
 
 
@@ -180,21 +168,8 @@ table {
   text-align: $table-text-align;
   
   border-collapse: collapse;
-  // border: 1px solid $grey-color-light;
-  tr {
-    &:nth-child(even) {
-      // background-color: lighten($grey-color-light, 6%);
-    }
-  }
   th, td {
     padding: ($spacing-unit / 2) ($spacing-unit / 2);
   }
-  th {
-    // background-color: lighten($grey-color-light, 3%);
-    // border: 1px solid darken($grey-color-light, 4%);
-    // border-bottom-color: darken($grey-color-light, 12%);
-  }
-  td {
-    // border: 1px solid $grey-color-light;
-  }
+  
 }
