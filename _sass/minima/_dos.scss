@@ -7,7 +7,7 @@
 }
  
 ::-webkit-scrollbar-thumb {
-  background: silver; 
+  background: #AAA; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -99,6 +99,10 @@
     transform: scaleX(1.35000135);
     transform-origin: top left;
   }
+
+  img {
+    max-width: 37%;
+  }
 }
 
 .dos-border-left {
@@ -123,4 +127,9 @@
 
 .u-email {
   padding: 0 $spacing-unit / 2;
+}
+
+.home pre {
+  width: 36ch;
+  margin: 0 auto;
 }

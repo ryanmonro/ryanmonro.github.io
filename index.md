@@ -5,6 +5,9 @@
 layout: home
 ---
 
-I'm Ryan Monro from Melbourne, Australia. I play music, and I also write code. Sometimes I manage to do both at the same time. Musically, I'm best known as the upright and electric bassist for The Cat Empire. 
+```
+> ryan == musician && web_developer
+ => true
+```
 
-So why play music and write code? What I love about coding is your logic has to be exactly right: you can't get away with being ambiguous or not having thought something through. A computer will only do exactly what you tell it to, so you have to be sure you're explaining it correctly. Every time I explain music to a computer, I learn more about the things I take for granted in music, and how people play and listen to it. Considering how complicated it is when you break it down, it can seem like a miracle that music happens at all.
+I'm Ryan Monro from Melbourne, Australia. I play music, and I also write code. Sometimes I manage to do both at the same time. Musically, I'm best known as the upright and electric bassist for The Cat Empire. I enjoy coding because your logic has to be correct: you can't get away with being ambiguous or not having thought something through. When you write code, you have to explain to the computer exactly what you want it to do. Every time I try to teach music to a computer I understand it in new ways.
