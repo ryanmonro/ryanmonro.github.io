@@ -3,6 +3,7 @@ layout: post
 title:  "Goldwatch"
 date:   2017-04-01 10:00:00 +1000
 categories: [projects]
+details: PHP
 ---
 
 ![](/assets/projects/bryanadams.png)

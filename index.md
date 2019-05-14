@@ -6,7 +6,7 @@ layout: home
 ---
 
 ```
-> ryan == musician && web_developer
+ ryan == musician && developer
  => true
 ```
 
