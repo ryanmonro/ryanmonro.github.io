@@ -14,11 +14,13 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Recent Projects:" }}</h2>
     <ul class="post-list">
+      {% assign post_count = 1 %}
       {%- for post in site.posts -%}
         {%- if post.categories contains "projects" -%}
-        {%- if post.hide -%}
+        {%- if post.hide or post_count > 5 -%}
           {% continue %}
         {%- endif -%}
+        {% assign post_count = post_count | plus: 1 %}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         
