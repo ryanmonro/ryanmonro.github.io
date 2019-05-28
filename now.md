@@ -12,7 +12,7 @@ Other than that I have been pretty busy getting [wired in](https://www.youtube.c
 - I got into Tone.JS, culminating in the [Mondrian sequencer](/projects/2019/04/15/mondrian-sequencer.html) I built. 
 - I read [the book](http://www.generative-gestaltung.de/2/) on Generative Design in P5, and am gradually heading towards integrating that with what I've been doing with audio. 
 - I'm catching up on iOS Development (a lot has changed since 2013!) and learning Swift as a result. I guess the endgame there is building some sort of musical native iOS app. 
-- I recycled some CSS from a few years ago that made everything looks like DOS, and now it's my website (you're standing in it)
+- I recycled some CSS from a few years ago that made everything look like DOS, and now it's my website (you're standing in it)
 
 You know when you were a kid, playing with Lego, and you'd get so into it that you didn't realise how much time was passing? That's what I call The Lego Zone. It's been satisfying to get into that zone with programming again. It's been a while.
 
