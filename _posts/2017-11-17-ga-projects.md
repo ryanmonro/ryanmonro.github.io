@@ -7,7 +7,7 @@ categories: [projects]
 
 In the second half of 2017 I undertook the Web Development Immersive Course at General Assembly, to learn some web dev skills I had heard about but didn't quite know where to start learning about. I worked on four projects during the course:
 
-## Tic Tac Toe (HTML/CSS/Javascript)
+## Tic Tac Toe (HTML/CSS/JavaScript)
 
 Our first assignment at General Assembly was a Tic Tac Toe game in JavaScript. After I made a working game I added animation to draw the board and the players' moves, sound effects, and an AI player who has actually beaten me a few times.
 [Demo](https://ryanmonro.github.io/tictactoe/) [GitHub](https://github.com/ryanmonro/tictactoe)
