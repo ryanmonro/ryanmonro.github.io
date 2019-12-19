@@ -14,7 +14,7 @@
           <div class="dos-border">
           </div>
         </div>
-        {%- include footer.html -%}
+        
       </div>
     </div>
     <script>
@@ -51,6 +51,7 @@
 
       // replace smart apostrophes, interpuncts, etc
       var punctuation = {
+        'ö': 'o',
         '•': String.fromCharCode(0x07),
         '’': "'",
         '‘': "'",

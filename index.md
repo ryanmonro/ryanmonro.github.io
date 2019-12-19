@@ -5,9 +5,6 @@
 layout: home
 ---
 
-```
- ryan == musician && developer
- => true
-```
+I'm a [musician](/music) and [software developer](/projects) based in Melbourne, Australia.
 
-I'm Ryan Monro from Melbourne, Australia. I play music, and I also write code. Sometimes I manage to do both at the same time. Musically, I'm best known as the upright and electric bassist for The Cat Empire. I enjoy coding because your logic has to be correct: you can't get away with being ambiguous or not having thought something through. When you write code, you have to explain to the computer exactly what you want it to do. Every time I try to teach music to a computer I understand it in new ways.
+For enquiries, feel free to [email me](mailto:ryan@ryanmonro.info).

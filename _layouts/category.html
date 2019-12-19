@@ -17,7 +17,7 @@ layout: default
           {% continue %}
         {%- endif -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- assign date_format = site.minima.date_format | default: "%b %Y" -%}
         
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
