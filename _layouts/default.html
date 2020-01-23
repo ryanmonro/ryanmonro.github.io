@@ -18,32 +18,6 @@
       </div>
     </div>
     <script>
-      // draw border
-      var width = 80, height = 23;
-      var borderTop = String.fromCharCode(0xC9);
-      let borderBottom = String.fromCharCode(0xC8);
-      for (var i = 0; i < width - 2; i++){
-        borderTop += String.fromCharCode(0xCD);
-        borderBottom += String.fromCharCode(0xCD);
-      }
-      borderTop += String.fromCharCode(0xBB) + '\n';
-      borderBottom += String.fromCharCode(0xBC) + '\n';
-      var borderTopNode = document.createTextNode(borderTop);
-      var borderBottomNode = document.createTextNode(borderBottom);
-      var borderDiv = document.querySelector('.dos-border');
-      borderDiv.appendChild(borderTopNode);
-      for (var i = 0; i < height - 2; i++) {
-        let borderLeft = document.createElement('div');
-        let borderRight = document.createElement('div');
-        let borderChar = String.fromCharCode(0xBA);
-        borderRight.classList.add("dos-border-right");
-        borderLeft.appendChild(document.createTextNode(borderChar));
-        borderRight.innerText = String.fromCharCode(0xBA);
-        borderLeft.appendChild(borderRight);
-        borderDiv.appendChild(borderLeft);
-      }
-      borderDiv.appendChild(borderBottomNode);
-
       String.prototype.replaceAll = function(str1, str2, ignore) 
       {
           return this.replace(new RegExp(str1.replace(/([\/\,\!\\\^\$\{\}\[\]\(\)\.\*\+\?\|\<\>\-\&])/g,"\\$&"),(ignore?"gi":"g")),(typeof(str2)=="string")?str2.replace(/\$/g,"$$$$"):str2);
@@ -67,5 +41,6 @@
       });
       document.body.innerHTML = bodyHTML;
     </script>
+    <script src="assets/nibbles.js"></script>
   </body>
 </html>

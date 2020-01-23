@@ -1,0 +1,58 @@
+@font-face {
+  font-family: DOS;
+  src: url(DOS.ttf); 
+}
+
+#nibbles {
+  position: relative;
+  color: #FF5;
+  background: #00A;
+  font-family: DOS;
+  margin: 0 auto;
+}
+
+#nibbles .border {
+  color: silver;
+}
+
+#nibbles .line {
+  display: block;
+}
+
+#nibbles .space {
+  display: inline-block;
+  width: 1ch;
+}
+
+#nibbles .modal {
+  position: absolute;
+  background: #00A;
+  text-align: center;
+}
+
+#nibblesKeyboard {
+  display: none;
+  margin: 1em auto;
+  width: 27ch;
+  color: #FF5;
+  font-family: DOS;
+}
+
+/*#nibblesKeyboard{}*/
+
+#nibblesKeyboard .row {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#nibblesKeyboard .key {
+  display: inline-block;
+  box-sizing: border-box;
+  background: #00A;
+  border: solid 2px silver;
+  width: 9ch;
+  height: 8ch;
+  padding-top: 3ch;
+  /*padding-left: 3ch;*/
+
+}
