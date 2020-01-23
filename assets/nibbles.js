@@ -1,5 +1,6 @@
 // half height snake
 // sound
+// change width and height depending on viewport
 
 const WIDTH = 28;
 const HEIGHT = 14;

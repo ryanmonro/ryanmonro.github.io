@@ -31,7 +31,7 @@
 }
 
 #nibblesKeyboard {
-  margin: 1em auto;
+  margin: 0 auto;
   width: 27ch;
   color: #FF5;
   font-family: DOS;
