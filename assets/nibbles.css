@@ -31,14 +31,17 @@
 }
 
 #nibblesKeyboard {
-  display: none;
   margin: 1em auto;
   width: 27ch;
   color: #FF5;
   font-family: DOS;
 }
 
-/*#nibblesKeyboard{}*/
+@media only screen and (min-width: 400px){
+  #nibblesKeyboard {
+    display: none;
+  }
+}
 
 #nibblesKeyboard .row {
   margin: 0 auto;
@@ -50,9 +53,9 @@
   box-sizing: border-box;
   background: #00A;
   border: solid 2px silver;
-  width: 9ch;
-  height: 8ch;
-  padding-top: 3ch;
+  width: 7ch;
+  height: 6ch;
+  padding-top: 2ch;
   /*padding-left: 3ch;*/
 
 }

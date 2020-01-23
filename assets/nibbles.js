@@ -19,7 +19,7 @@ function drawModal(){
   modal.className = "modal";
   modal.style.left = ((WIDTH - 24) / 2).toString() + "ch";
   modal.style.top = ((HEIGHT - 5) / 2).toString() + "em";
-  modal.style.width = (24).toString() + "ch";
+  modal.style.width = (26).toString() + "ch";
   modal.style.height = (5).toString() + "em";
   var modalBorder = document.createElement('div');
 
