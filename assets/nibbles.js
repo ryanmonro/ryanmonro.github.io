@@ -2,18 +2,25 @@
 // sound
 // change width and height depending on viewport
 
-const WIDTH = 28;
-const HEIGHT = 14;
+// const WIDTH = 28;
+// const HEIGHT = 14;
 const SNAKE = "&#xB2;";
 const BUG = "&#xEA;"
 
 var headx, heady, dirx, diry, length, grid, play, moves;
 var playing
+var WIDTH, HEIGHT;
 var nibblesDiv = document.getElementById('nibbles');
-nibblesDiv.style.width = (WIDTH + 2).toString() + "ch";
-nibblesDiv.style.height = (HEIGHT + 2).toString() + "em";
-drawKeyboard();
-drawModal();
+if (nibblesDiv !== null) {
+  var availableWidth = nibblesDiv.parentNode.clientWidth - 50;
+  WIDTH = Math.floor(availableWidth / 9);
+  HEIGHT = Math.floor(WIDTH / 3);
+  console.log(WIDTH, HEIGHT)
+  nibblesDiv.style.width = (WIDTH + 2).toString() + "ch";
+  nibblesDiv.style.height = (HEIGHT + 2).toString() + "em";
+  drawKeyboard();
+  drawModal();
+}
 
 function drawModal(){
   var modal = document.createElement('div');
@@ -31,7 +38,7 @@ function drawModal(){
   }
   playing = false;
   var text = document.createElement('p');
-  text.textContent = "Click here to begin";
+  text.innerHTML = "Keys: w/a/s/d<br>Click here to begin";
   modal.addEventListener('click', function(e){
     reset();
   })
@@ -130,8 +137,8 @@ function gameover(){
 function reset(){
   moves = [];
   playing = true;
-  headx = 12;
-  heady = 12;
+  headx = 8;
+  heady = 8;
   dirx = 1;
   diry = 0;
   length = 10;
