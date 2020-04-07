@@ -8,7 +8,7 @@ details: "Node.js"
 
 ![](/assets/projects/randomsheet.jpg)
 
-In March 2020 during my Coronavirus lockdown, I found a lot of spare time to get things done that I usually wouldn't have time for. This was great news for my more frivolous coding ideas. One particular Sunday I thought to myself, "Surely it wouldn't be that hard to generate random [Broadsheet](https://www.broadsheet.com) articles based on a whole stack of Broadsheet articles." Over the next few weeks, I figure out how to do just that.
+In March 2020 during my Coronavirus lockdown, I found a lot of spare time to get things done that I usually wouldn't have time for. This was great news for my more frivolous coding ideas. One particular Sunday I thought to myself, "Surely it wouldn't be that hard to generate random [Broadsheet](https://www.broadsheet.com.au) articles based on a whole stack of Broadsheet articles." Over the next few weeks, I figure out how to do just that.
 
 I find Broadsheet fascinating. At first glance, they have restaurant reviews. But it doesn't take much reading to realise there is no opinion or critique involved whatsoever. So that can lead you to think, "Oh these aren't reviews, they're just regurgitating press releases like lazy journalists." But they're not lazy. They really put the time in. They really seem to care about representing what each new place is really about, but without saying if it's any good or not. Each article can really be summed up as, "This place exists." But the language is always, well, unique. There's an intrinsic Broadsheetiness to the writing, which is what made me think maybe I could generate them randomly.
 
