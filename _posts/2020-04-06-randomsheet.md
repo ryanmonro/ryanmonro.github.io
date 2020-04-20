@@ -18,6 +18,8 @@ It turns out Markov chains are the path of least resistance to building somethin
 2. a trainer which cleans up the data (slightly) and trains Markov chains on the article text and headlines.
 3. a server which generates a webpage with Markov-generated text, and a random image from the incredibly useful and on-brand-for-this-project [Unsplash](https://www.unsplash.com).
 
-This project was very much inspired by Postlight's [Lorem Ipsum Generator Generator](https://github.com/postlight/lorem-ipsum-generator-generator/). The [Mercury Parser](https://github.com/postlight/mercury-parser), another Postlight project, was also invaluable in extracting the actual article from each page. Thanks Postlight.
+This project was very much inspired by Postlight's [Lorem Ipsum Generator Generator](https://github.com/postlight/lorem-ipsum-generator-generator/). The [Mercury Parser](https://github.com/postlight/mercury-parser), another Postlight project, was also invaluable in extracting the actual article from each page. Thanks Postlight. 
+
+Shortly after I finished this project I realised it would be a whole lot more useful if you could point it at anything, rather than just Broadsheet. That led me to fork Postlight's repo and add a crawler around it, resulting in my [Crawling Lorem Ipsum Generator Generator](https://github.com/ryanmonro/crawling-lorem-ipsum-generator-generator).
 
 See it at [randomsheet.appspot.com](https://randomsheet.appspot.com)
