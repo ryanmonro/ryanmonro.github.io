@@ -4,6 +4,7 @@ title:  Instagram Data Download JSON Tool
 date:   2020-02-12 10:00:00 +1000
 categories: [projects]
 details: Python
+summary: Rejoins downloaded Instagram photos with their date/times 
 ---
 
 ## Briefly...

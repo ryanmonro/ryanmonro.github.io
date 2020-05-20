@@ -4,6 +4,7 @@ title:  "Mondrian Sequencer"
 date:   2019-04-15 10:00:00 +1000
 categories: [projects]
 details: React
+summary: Music sequencer inspired by Piet Mondrian
 ---
 
 <iframe height="266" width="266" src="https://www.youtube.com/embed/u7B9B6sYUC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

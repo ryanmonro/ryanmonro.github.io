@@ -4,6 +4,7 @@ title:  Collision
 date:   2019-08-13 10:00:00 +1000
 categories: [projects]
 details: p5.js
+summary: Random physics/music inspired by tone row composition
 ---
 
 <iframe height="266" width="266" src="https://www.youtube.com/embed/rz6KDOLyVwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

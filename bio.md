@@ -11,13 +11,13 @@ I'm Ryan Monro from Melbourne, Australia, best known as the upright and electric
 
 Writing a bio is tricky: the names in a paragraph of namedropping are often arranged in descending order of how famous the names are, but I thought it would be more truthful to indicate how long they happened for. So, below are the people I've played with in order of how long I played with them, with each paragraph sorted alphabetically (unless otherwise indicated) to eliminate any namedrop-value bias. That means I don't get to put Maceo Parker first anymore but at least I don't have to decided whether Paul Kelly goes before or after Archie Roach.
 
-I've been a member of some bands: 4000AD, The Genie, The Horror, and Magnolia.
+I've been a member of some bands: 4000AD, The Genie, The Horror, Magnolia and The Breves.
 
 I've done what I would call 'being part of the lineup and doing some domestic touring' with Felix Riebl, Jackson Jackson, Megan Washington and The Meltdown.
 
-I've done a few gigs with Barbariön, Bobby Fox, Danny Ross, Elana Stone, Flap, Husky, Jazz Party, Kelsey James, Kylie Auldist, Lance Ferguson, Lauren Glezer, Los Cabrones, Luke Howard, Nina Ferro, Roscoe James Irwin, Strange James and Tim Rogers.
+I've done a few gigs with Barbariön, Bobby Fox, Danny Ross, Elana Stone, Flap, Husky, Jazz Party, Kelsey James, Kylie Auldist, Lance Ferguson, Lauren Glezer, Los Cabrones, Luke Howard, Melbourne Symphony Orchestra, Nina Ferro, Roscoe James Irwin, Strange James and Tim Rogers.
 
-I've done one entire gig with Maceo Parker, the Melbourne Symphony Orchestra and Saskwatch.
+I've done one entire gig with Maceo Parker and Saskwatch.
 
 I've played at least one song, usually in some sort of house-band situation, with Archie Roach, Bryce Dessner (The National), Jim Keays (Masters Apprentices), Joe Camilleri, Julia Stone, Kate Ceberano, Michael Spiby, Paul Kelly, Robert Forster, Sally Seltmann, Sam Amidon, Thando and Thomas Bartlett.
 

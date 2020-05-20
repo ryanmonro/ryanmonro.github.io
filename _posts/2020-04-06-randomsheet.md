@@ -4,6 +4,7 @@ title:  "Randomsheet"
 date:   2020-04-06 10:00:00 +1000
 categories: [projects]
 details: "Node.js"
+summary: Random restaurant article generator
 ---
 
 ![](/assets/projects/randomsheet.jpg)

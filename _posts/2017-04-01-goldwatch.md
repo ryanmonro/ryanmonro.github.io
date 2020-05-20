@@ -4,6 +4,7 @@ title:  "Goldwatch"
 date:   2017-04-01 10:00:00 +1000
 categories: [projects]
 details: PHP
+summary: Tracks and tweets songs played by radio station Gold 104
 ---
 
 ![](/assets/projects/bryanadams.png)

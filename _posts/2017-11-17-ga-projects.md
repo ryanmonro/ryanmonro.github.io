@@ -3,6 +3,7 @@ layout: post
 title:  GA Projects
 date:   2017-11-17 10:00:00 +1000
 categories: [projects]
+summary: Projects from my time studying at General Assembly
 ---
 
 In the second half of 2017 I undertook the Web Development Immersive Course at General Assembly, to learn some web dev skills I had heard about but didn't quite know where to start learning about. I worked on four projects during the course:

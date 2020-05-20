@@ -4,6 +4,7 @@ title:  "Quickbass 1.0"
 date:   2020-04-09 10:00:00 +1000
 categories: [projects]
 details: "Front-end"
+summary: "Text-mode, keyboard-driven, mobile-never drum machine for the browser"
 ---
 
 ![](/assets/projects/quickbass.png)
