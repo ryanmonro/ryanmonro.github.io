@@ -65,26 +65,12 @@
   color: white;
   background-color: $blue;
   z-index: 2;
-  // width: 76ch;
-  // overflow-y: auto;
   padding-right: 2ch;
-    box-sizing: border-box;
-    // width: 76ch;
-    // max-width: 76ch;
-    // max-width: 90vw;
-    // height: auto;
-    top: 1em;
-    // left: 0ch;
-    padding: 1em 2ch;
-  @media screen and (max-width: $no-monitor) {
-  }
-  a::before {
-    content: '\0011';
-    color: lime;
-  }
-  a::after {
-    content: '\0010';
-    color: lime;
+  box-sizing: border-box;
+  top: 1em;
+  padding: 1em 2ch;
+  a {
+    text-decoration: underline;
   }
   h1::after {
     content: '----------';
