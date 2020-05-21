@@ -5,7 +5,7 @@ date:   2017-10-17 22:10:12 +1000
 categories: [blog, coding]
 ---
 
-![Github logo](https://cdn-images-1.medium.com/max/1600/1*IzQ0MFKVbcZev3mNedfHrA.png)
+![Github logo](/assets/gitfeld.png)
 
 Contributing to open source is a lot like listening to Steely Dan: everyone seems to rave about it, it seems like something I should be into, I’ve wanted to get involved for a long time, but I can never really figure out where to start. Unlike Steely Dan, however, the benefits of contributing to open source are clear. Basically, there’s a lot of code out there, there’s a mechanism for you to be able to make changes and submit them, and the owner can add them to the real actual code if they agree with your changes. That makes you one of the contributors. Neat, huh? Write software with people you’ve never even met, get some good experience under your belt, and help improve something by being one of the tiny worker ants pushing variables around. I’ll put it slightly more grandiosely than that: *help further the advancement of humanity without even leaving your couch*. Count me in. But where do I start?
 

@@ -1,6 +1,8 @@
 - name: Music
   link: /music/
-- name: Code
+- name: Coding
   link: /projects/
+- name: Blog
+  link: /blog/
 - name: Contact
   link: /contact/
