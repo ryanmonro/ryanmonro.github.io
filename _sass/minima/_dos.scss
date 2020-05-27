@@ -85,6 +85,10 @@
     transform: scaleX(1.35000135);
     transform-origin: top left;
   }
+  img + em {
+    display: block;
+    text-align: center;
+  }
 
   // img {
   //   max-width: 37%;
