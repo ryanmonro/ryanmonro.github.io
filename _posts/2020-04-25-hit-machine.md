@@ -4,7 +4,7 @@ title:  "Hit Machine"
 date:   2020-04-25 10:00:00 +1000
 categories: [projects]
 details: React
-summary: "Madlibs-style song idea generator with random chord progressions"
+summary: "Song idea generator with random chord progressions"
 ---
 
 ![](/assets/projects/hitmachine.gif)

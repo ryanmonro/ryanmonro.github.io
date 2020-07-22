@@ -11,6 +11,7 @@ var headx, heady, dirx, diry, length, grid, play, moves;
 var playing
 var WIDTH, HEIGHT;
 var nibblesDiv = document.getElementById('nibbles');
+// console.log(nibblesDiv)
 if (nibblesDiv !== null) {
   var availableWidth = nibblesDiv.parentNode.clientWidth - 50;
   WIDTH = Math.floor(availableWidth / 9);
@@ -20,6 +21,13 @@ if (nibblesDiv !== null) {
   nibblesDiv.style.height = (HEIGHT + 2).toString() + "em";
   drawKeyboard();
   drawModal();
+  window.addEventListener('keydown', function(e){
+    if (playing === true) {
+      moves.push(e.key);
+    } else {
+      reset();
+    }
+  });
 }
 
 function drawModal(){
@@ -170,14 +178,6 @@ function draw(){
   }
   nibblesDiv.append(borderBottom());
 };
-
-window.addEventListener('keydown', function(e){
-  if (playing === true) {
-    moves.push(e.key);
-  } else {
-    reset();
-  }
-});
 
 function spawn(){
   var currentValue;
