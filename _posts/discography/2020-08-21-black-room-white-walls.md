@@ -3,7 +3,7 @@ layout: post
 title:  Felix Riebl - Black Room White Walls EP
 date:   2020-08-21 10:00:00 +1000
 categories: [discography]
-details: 'bass'
+details: 
 ---
 
 ![](/assets/discography/blackroomwhitewalls.jpg)
